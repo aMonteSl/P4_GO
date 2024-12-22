@@ -1,0 +1,47 @@
+(base) adrian@adrian-System-Product-Name:~/Escritorio/SistemasDistribuidos/P4_GO$ go run enaire.go 
+------------------
+Iniciando operación en: 127.0.0.1:8000
+Msg enviado: 0
+------------------
+Msg enviado: 1
+Operando en: 127.0.0.1:8000
+Tiempo: 10seg.
+------------------
+Msg enviado: 3
+Operando en: 127.0.0.1:8000
+Tiempo: 7seg.
+------------------
+Msg enviado: 6
+Operando en: 127.0.0.1:8000
+Tiempo: 2seg.
+------------------
+Msg enviado: 5
+Operando en: 127.0.0.1:8000
+Tiempo: 4seg.
+------------------
+Msg enviado: 9
+Operando en: 127.0.0.1:8000
+Tiempo: 9seg.
+------------------
+Msg enviado: 7
+Operando en: 127.0.0.1:8000
+Tiempo: 9seg.
+------------------
+Msg enviado: 1
+Operando en: 127.0.0.1:8000
+Tiempo: 2seg.
+------------------
+Msg enviado: 3
+Operando en: 127.0.0.1:8000
+Tiempo: 7seg.
+------------------
+Msg enviado: 2
+Operando en: 127.0.0.1:8000
+Tiempo: 10seg.
+------------------
+Msg enviado: 5
+Operando en: 127.0.0.1:8000
+Tiempo: 10seg.
+------------------
+Msg enviado: 0
+Terminando operación en: 127.0.0.1:8000
