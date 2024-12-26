@@ -1,0 +1,1821 @@
+=== RUN   TestIntegration
+    integration_test.go:51: Directorio del proyecto: /home/adrian/Escritorio/SistemasDistribuidos/P4_GO/aeropuerto
+2024/12/26 10:45:42 listen tcp 127.0.0.1:8000: bind: address already in use
+exit status 1
+=== RUN   TestIntegration/10_each
+len: 41 msg: Aeropuerto localizado en 127.0.0.1:57940
+
+Mensaje del sistema: Aeropuerto localizado en 127.0.0.1:57940
+
+len: 35 msg: 127.0.0.1:47908 se ha desconectado
+
+Mensaje del sistema: 127.0.0.1:47908 se ha desconectado
+
+len: 35 msg: 127.0.0.1:59656 se ha desconectado
+
+Mensaje del sistema: 127.0.0.1:59656 se ha desconectado
+
+len: 35 msg: 127.0.0.1:38694 se ha desconectado
+
+Mensaje del sistema: 127.0.0.1:38694 se ha desconectado
+
+    integration_test.go:120: Esperando 1m30s para procesar 30 aviones
+len: 32 msg: 127.0.0.1:57948 Se ha conectado
+
+Mensaje del sistema: 127.0.0.1:57948 Se ha conectado
+
+------------------
+Iniciando operación en: 127.0.0.1:8000
+Msg enviado: 0
+len: 2 msg: 0
+
+Procesando estado: 0
+Aeropuerto Inactivo - No hay aterrizajes
+------------------
+Msg enviado: 3
+Operando en: 127.0.0.1:8000
+Tiempo: 2seg.
+len: 2 msg: 3
+
+Procesando estado: 3
+Permitiendo aterrizaje solo categoría C
+Procesando solo aviones de categoría C
+Avión 29 (Categoría C) aterrizando en pista 0
+Avión 22 (Categoría C) aterrizando en pista 1
+Avión 23 (Categoría C) aterrizando en pista 2
+Avión 24 en espera - No hay pistas disponibles
+Avión 26 en espera - No hay pistas disponibles
+Avión 27 en espera - No hay pistas disponibles
+Avión 25 en espera - No hay pistas disponibles
+Avión 21 en espera - No hay pistas disponibles
+Avión 30 (Categoría C) aterrizando en pista 1
+Avión 28 en espera - No hay pistas disponibles
+Avión 22 desembarcando en puerta 0
+------------------
+Msg enviado: 1
+Operando en: 127.0.0.1:8000
+Tiempo: 8seg.
+len: 2 msg: 1
+
+Procesando estado: 1
+Permitiendo aterrizaje solo categoría A
+Procesando solo aviones de categoría A
+Avión 10 en espera - No hay pistas disponibles
+Avión 6 en espera - No hay pistas disponibles
+Avión 7 en espera - No hay pistas disponibles
+Avión 8 en espera - No hay pistas disponibles
+Avión 2 en espera - No hay pistas disponibles
+Avión 1 en espera - No hay pistas disponibles
+Avión 3 en espera - No hay pistas disponibles
+Avión 4 en espera - No hay pistas disponibles
+Avión 29 desembarcando en puerta 1
+Avión 23 desembarcando en puerta 2
+Avión 9 (Categoría A) aterrizando en pista 0
+Avión 5 (Categoría A) aterrizando en pista 2
+Avión 30 desembarcando en puerta 3
+Avión 22 ha completado sus operaciones
+Avión 9 desembarcando en puerta 0
+Avión 29 ha completado sus operaciones
+Avión 23 ha completado sus operaciones
+Avión 5 desembarcando en puerta 1
+------------------
+Msg enviado: 2
+Operando en: 127.0.0.1:8000
+Tiempo: 5seg.
+len: 2 msg: 2
+
+Procesando estado: 2
+Permitiendo aterrizaje solo categoría B
+Procesando solo aviones de categoría B
+Avión 20 (Categoría B) aterrizando en pista 0
+Avión 16 (Categoría B) aterrizando en pista 2
+Avión 11 (Categoría B) aterrizando en pista 1
+Avión 13 en espera - No hay pistas disponibles
+Avión 9 ha completado sus operaciones
+Avión 30 ha completado sus operaciones
+Avión 12 en espera - No hay pistas disponibles
+Avión 19 en espera - No hay pistas disponibles
+Avión 5 ha completado sus operaciones
+Avión 18 en espera - No hay pistas disponibles
+Avión 15 en espera - No hay pistas disponibles
+Avión 14 en espera - No hay pistas disponibles
+Avión 20 desembarcando en puerta 0
+Avión 17 en espera - No hay pistas disponibles
+Avión 16 desembarcando en puerta 1
+Avión 11 desembarcando en puerta 2
+------------------
+Msg enviado: 2
+Operando en: 127.0.0.1:8000
+Tiempo: 7seg.
+len: 2 msg: 2
+
+Procesando estado: 2
+Permitiendo aterrizaje solo categoría B
+Procesando solo aviones de categoría B
+Avión 13 (Categoría B) aterrizando en pista 0
+Avión 18 (Categoría B) aterrizando en pista 1
+Avión 19 en espera - No hay pistas disponibles
+Avión 11 en espera - No hay pistas disponibles
+Avión 15 en espera - No hay pistas disponibles
+Avión 17 (Categoría B) aterrizando en pista 2
+Avión 12 en espera - No hay pistas disponibles
+Avión 16 en espera - No hay pistas disponibles
+Avión 16 ha completado sus operaciones
+Avión 20 en espera - No hay pistas disponibles
+Avión 13 desembarcando en puerta 1
+Avión 14 (Categoría B) aterrizando en pista 0
+Avión 20 ha completado sus operaciones
+Avión 11 ha completado sus operaciones
+Avión 17 desembarcando en puerta 0
+Avión 18 desembarcando en puerta 2
+Avión 14 desembarcando en puerta 3
+------------------
+Msg enviado: 6
+Operando en: 127.0.0.1:8000
+Tiempo: 7seg.
+len: 2 msg: 6
+
+Procesando estado: 6
+Prioridad para categoría C
+Prioridad para aviones de categoría C
+Avión 30 (Categoría C) aterrizando en pista 0
+Avión 26 (Categoría C) aterrizando en pista 1
+Avión 23 (Categoría C) aterrizando en pista 2
+Avión 24 en espera - No hay pistas disponibles
+Avión 29 en espera - No hay pistas disponibles
+Avión 13 ha completado sus operaciones
+Avión 18 ha completado sus operaciones
+Avión 17 ha completado sus operaciones
+Avión 22 en espera - No hay pistas disponibles
+Avión 25 en espera - No hay pistas disponibles
+Avión 14 ha completado sus operaciones
+Avión 28 en espera - No hay pistas disponibles
+Avión 27 en espera - No hay pistas disponibles
+Avión 20 en espera - No hay pistas disponibles
+Avión 1 en espera - No hay pistas disponibles
+Avión 9 en espera - No hay pistas disponibles
+Avión 10 en espera - No hay pistas disponibles
+Avión 11 en espera - No hay pistas disponibles
+Avión 12 en espera - No hay pistas disponibles
+Avión 14 en espera - No hay pistas disponibles
+Avión 16 en espera - No hay pistas disponibles
+Avión 17 en espera - No hay pistas disponibles
+Avión 21 en espera - No hay pistas disponibles
+Avión 23 desembarcando en puerta 0
+Avión 26 desembarcando en puerta 1
+Avión 15 (Categoría B) aterrizando en pista 1
+Avión 8 (Categoría A) aterrizando en pista 2
+Avión 18 en espera - No hay pistas disponibles
+Avión 5 en espera - No hay pistas disponibles
+Avión 6 en espera - No hay pistas disponibles
+Avión 30 desembarcando en puerta 2
+Avión 19 (Categoría B) aterrizando en pista 0
+Avión 7 en espera - No hay pistas disponibles
+Avión 2 en espera - No hay pistas disponibles
+Avión 13 en espera - No hay pistas disponibles
+Avión 4 en espera - No hay pistas disponibles
+Avión 3 en espera - No hay pistas disponibles
+Avión 15 desembarcando en puerta 3
+Avión 19 desembarcando en puerta 4
+Avión 8 en espera de puerta
+Avión 23 ha completado sus operaciones
+------------------
+Msg enviado: 9
+Operando en: 127.0.0.1:8000
+Tiempo: 10seg.
+len: 2 msg: 9
+
+Procesando estado: 9
+Aeropuerto Cerrado Temporalmente
+Avión 26 ha completado sus operaciones
+Avión 19 ha completado sus operaciones
+Avión 30 ha completado sus operaciones
+Avión 15 ha completado sus operaciones
+------------------
+Msg enviado: 6
+Operando en: 127.0.0.1:8000
+Tiempo: 9seg.
+len: 2 msg: 6
+
+Procesando estado: 6
+Prioridad para categoría C
+Prioridad para aviones de categoría C
+Avión 30 (Categoría C) aterrizando en pista 0
+Avión 26 (Categoría C) aterrizando en pista 1
+Avión 27 (Categoría C) aterrizando en pista 2
+Avión 29 en espera - No hay pistas disponibles
+Avión 23 en espera - No hay pistas disponibles
+Avión 21 en espera - No hay pistas disponibles
+Avión 22 en espera - No hay pistas disponibles
+Avión 28 en espera - No hay pistas disponibles
+Avión 25 en espera - No hay pistas disponibles
+Avión 24 en espera - No hay pistas disponibles
+Avión 27 desembarcando en puerta 0
+Avión 3 (Categoría A) aterrizando en pista 2
+Avión 1 en espera - No hay pistas disponibles
+Avión 2 en espera - No hay pistas disponibles
+Avión 7 en espera - No hay pistas disponibles
+Avión 9 en espera - No hay pistas disponibles
+Avión 30 desembarcando en puerta 1
+Avión 4 (Categoría A) aterrizando en pista 0
+Avión 10 en espera - No hay pistas disponibles
+Avión 5 en espera - No hay pistas disponibles
+Avión 19 en espera - No hay pistas disponibles
+Avión 18 en espera - No hay pistas disponibles
+Avión 16 en espera - No hay pistas disponibles
+Avión 11 en espera - No hay pistas disponibles
+Avión 15 en espera - No hay pistas disponibles
+Avión 3 desembarcando en puerta 2
+Avión 17 en espera - No hay pistas disponibles
+Avión 6 en espera - No hay pistas disponibles
+Avión 8 en espera - No hay pistas disponibles
+Avión 20 (Categoría B) aterrizando en pista 2
+Avión 14 en espera - No hay pistas disponibles
+Avión 12 en espera - No hay pistas disponibles
+Avión 13 en espera - No hay pistas disponibles
+Avión 26 desembarcando en puerta 3
+Avión 4 desembarcando en puerta 4
+Avión 3 ha completado sus operaciones
+Avión 20 desembarcando en puerta 2
+Avión 27 ha completado sus operaciones
+Avión 30 ha completado sus operaciones
+Avión 4 ha completado sus operaciones
+------------------
+Msg enviado: 1
+Operando en: 127.0.0.1:8000
+Tiempo: 7seg.
+len: 2 msg: 1
+
+Procesando estado: 1
+Permitiendo aterrizaje solo categoría A
+Procesando solo aviones de categoría A
+Avión 9 (Categoría A) aterrizando en pista 0
+Avión 5 (Categoría A) aterrizando en pista 1
+Avión 2 (Categoría A) aterrizando en pista 2
+Avión 26 ha completado sus operaciones
+Avión 3 en espera - No hay pistas disponibles
+Avión 8 en espera - No hay pistas disponibles
+Avión 4 en espera - No hay pistas disponibles
+Avión 10 en espera - No hay pistas disponibles
+Avión 6 en espera - No hay pistas disponibles
+Avión 7 en espera - No hay pistas disponibles
+Avión 1 en espera - No hay pistas disponibles
+Avión 9 desembarcando en puerta 0
+Avión 2 desembarcando en puerta 1
+Avión 20 ha completado sus operaciones
+Avión 5 desembarcando en puerta 2
+Avión 9 ha completado sus operaciones
+------------------
+Msg enviado: 4
+Operando en: 127.0.0.1:8000
+Tiempo: 10seg.
+len: 2 msg: 4
+
+Procesando estado: 4
+Prioridad para categoría A
+Prioridad para aviones de categoría A
+Avión 2 (Categoría A) aterrizando en pista 0
+Avión 3 (Categoría A) aterrizando en pista 1
+Avión 4 (Categoría A) aterrizando en pista 2
+Avión 5 en espera - No hay pistas disponibles
+Avión 2 ha completado sus operaciones
+Avión 7 en espera - No hay pistas disponibles
+Avión 6 en espera - No hay pistas disponibles
+Avión 10 en espera - No hay pistas disponibles
+Avión 1 en espera - No hay pistas disponibles
+Avión 5 ha completado sus operaciones
+Avión 30 en espera - No hay pistas disponibles
+Avión 12 en espera - No hay pistas disponibles
+Avión 9 en espera - No hay pistas disponibles
+Avión 18 en espera - No hay pistas disponibles
+Avión 16 en espera - No hay pistas disponibles
+Avión 22 en espera - No hay pistas disponibles
+Avión 8 en espera - No hay pistas disponibles
+Avión 26 en espera - No hay pistas disponibles
+Avión 28 en espera - No hay pistas disponibles
+Avión 24 en espera - No hay pistas disponibles
+Avión 25 en espera - No hay pistas disponibles
+Avión 23 en espera - No hay pistas disponibles
+Avión 21 en espera - No hay pistas disponibles
+Avión 14 en espera - No hay pistas disponibles
+Avión 11 en espera - No hay pistas disponibles
+Avión 17 en espera - No hay pistas disponibles
+Avión 4 desembarcando en puerta 0
+Avión 2 desembarcando en puerta 1
+Avión 3 desembarcando en puerta 2
+Avión 29 (Categoría C) aterrizando en pista 0
+Avión 13 (Categoría B) aterrizando en pista 1
+Avión 15 (Categoría B) aterrizando en pista 2
+Avión 19 en espera - No hay pistas disponibles
+Avión 27 en espera - No hay pistas disponibles
+Avión 20 en espera - No hay pistas disponibles
+Avión 29 desembarcando en puerta 3
+Avión 2 ha completado sus operaciones
+Avión 15 desembarcando en puerta 1
+Avión 13 desembarcando en puerta 4
+Avión 3 ha completado sus operaciones
+Avión 4 ha completado sus operaciones
+------------------
+Msg enviado: 1
+Operando en: 127.0.0.1:8000
+Tiempo: 10seg.
+len: 2 msg: 1
+
+Procesando estado: 1
+Permitiendo aterrizaje solo categoría A
+Procesando solo aviones de categoría A
+Avión 1 (Categoría A) aterrizando en pista 0
+Avión 9 (Categoría A) aterrizando en pista 1
+Avión 4 (Categoría A) aterrizando en pista 2
+Avión 5 en espera - No hay pistas disponibles
+Avión 8 en espera - No hay pistas disponibles
+Avión 10 en espera - No hay pistas disponibles
+Avión 7 en espera - No hay pistas disponibles
+Avión 13 ha completado sus operaciones
+Avión 29 ha completado sus operaciones
+Avión 3 en espera - No hay pistas disponibles
+Avión 2 en espera - No hay pistas disponibles
+Avión 6 en espera - No hay pistas disponibles
+Avión 15 ha completado sus operaciones
+Avión 4 desembarcando en puerta 0
+Avión 9 desembarcando en puerta 1
+Avión 1 desembarcando en puerta 2
+Avión 4 ha completado sus operaciones
+Avión 1 ha completado sus operaciones
+Avión 9 ha completado sus operaciones
+------------------
+Msg enviado: 0
+len: 2 msg: 0
+
+Procesando estado: 0
+Aeropuerto Inactivo - No hay aterrizajes
+Terminando operación en: 127.0.0.1:8000
+len: 35 msg: 127.0.0.1:57948 se ha desconectado
+
+Mensaje del sistema: 127.0.0.1:57948 se ha desconectado
+
+    integration_test.go:134: Conexión verificada correctamente
+len: 32 msg: 127.0.0.1:36724 Se ha conectado
+
+Mensaje del sistema: 127.0.0.1:36724 Se ha conectado
+
+len: 35 msg: 127.0.0.1:36724 se ha desconectado
+
+Mensaje del sistema: 127.0.0.1:36724 se ha desconectado
+
+=== RUN   TestIntegration/20A_5BC
+len: 41 msg: Aeropuerto localizado en 127.0.0.1:43858
+
+Mensaje del sistema: Aeropuerto localizado en 127.0.0.1:43858
+
+len: 32 msg: 127.0.0.1:43858 Se ha conectado
+
+Mensaje del sistema: 127.0.0.1:43858 Se ha conectado
+
+    integration_test.go:120: Esperando 1m30s para procesar 30 aviones
+len: 32 msg: 127.0.0.1:43866 Se ha conectado
+
+Mensaje del sistema: 127.0.0.1:43866 Se ha conectado
+
+len: 32 msg: 127.0.0.1:43866 Se ha conectado
+
+Mensaje del sistema: 127.0.0.1:43866 Se ha conectado
+
+------------------
+Iniciando operación en: 127.0.0.1:8000
+Msg enviado: 0
+len: 2 msg: 0
+
+len: 2 msg: 0
+
+Procesando estado: 0
+Procesando estado: 0
+Aeropuerto Inactivo - No hay aterrizajes
+Aeropuerto Inactivo - No hay aterrizajes
+------------------
+Msg enviado: 4
+Operando en: 127.0.0.1:8000
+Tiempo: 5seg.
+len: 2 msg: 4
+
+Procesando estado: 4
+Prioridad para categoría A
+Prioridad para aviones de categoría A
+len: 2 msg: 4
+
+Avión 7 (Categoría A) aterrizando en pista 0
+Procesando estado: 4
+Prioridad para categoría A
+Prioridad para aviones de categoría A
+Avión 9 (Categoría A) aterrizando en pista 2
+Avión 6 (Categoría A) aterrizando en pista 1
+Avión 5 en espera - No hay pistas disponibles
+Avión 1 (Categoría A) aterrizando en pista 0
+Avión 4 (Categoría A) aterrizando en pista 1
+Avión 4 en espera - No hay pistas disponibles
+Avión 3 en espera - No hay pistas disponibles
+Avión 6 en espera - No hay pistas disponibles
+Avión 10 en espera - No hay pistas disponibles
+Avión 8 en espera - No hay pistas disponibles
+Avión 9 (Categoría A) aterrizando en pista 2
+Avión 7 en espera - No hay pistas disponibles
+Avión 8 en espera - No hay pistas disponibles
+Avión 10 en espera - No hay pistas disponibles
+Avión 2 en espera - No hay pistas disponibles
+Avión 1 en espera - No hay pistas disponibles
+Avión 3 en espera - No hay pistas disponibles
+Avión 2 en espera - No hay pistas disponibles
+Avión 30 en espera - No hay pistas disponibles
+Avión 16 en espera - No hay pistas disponibles
+Avión 21 en espera - No hay pistas disponibles
+Avión 23 en espera - No hay pistas disponibles
+Avión 1 desembarcando en puerta 0
+Avión 25 en espera - No hay pistas disponibles
+Avión 5 (Categoría A) aterrizando en pista 0
+Avión 27 en espera - No hay pistas disponibles
+Avión 28 en espera - No hay pistas disponibles
+Avión 29 en espera - No hay pistas disponibles
+Avión 12 en espera - No hay pistas disponibles
+Avión 15 en espera - No hay pistas disponibles
+Avión 23 en espera - No hay pistas disponibles
+Avión 26 en espera - No hay pistas disponibles
+Avión 27 en espera - No hay pistas disponibles
+Avión 29 en espera - No hay pistas disponibles
+Avión 7 desembarcando en puerta 0
+Avión 25 en espera - No hay pistas disponibles
+Avión 16 en espera - No hay pistas disponibles
+Avión 17 en espera - No hay pistas disponibles
+Avión 13 en espera - No hay pistas disponibles
+Avión 24 (Categoría C) aterrizando en pista 0
+Avión 14 en espera - No hay pistas disponibles
+Avión 17 en espera - No hay pistas disponibles
+Avión 18 en espera - No hay pistas disponibles
+Avión 20 en espera - No hay pistas disponibles
+Avión 9 desembarcando en puerta 1
+Avión 4 desembarcando en puerta 2
+Avión 6 desembarcando en puerta 1
+Avión 13 (Categoría B) aterrizando en pista 1
+Avión 26 en espera - No hay pistas disponibles
+Avión 11 (Categoría B) aterrizando en pista 2
+Avión 12 en espera - No hay pistas disponibles
+Avión 9 desembarcando en puerta 2
+Avión 19 en espera - No hay pistas disponibles
+Avión 15 en espera - No hay pistas disponibles
+Avión 22 en espera - No hay pistas disponibles
+Avión 11 (Categoría B) aterrizando en pista 1
+Avión 28 (Categoría C) aterrizando en pista 2
+Avión 19 en espera - No hay pistas disponibles
+Avión 21 en espera - No hay pistas disponibles
+Avión 22 en espera - No hay pistas disponibles
+Avión 14 en espera - No hay pistas disponibles
+Avión 20 en espera - No hay pistas disponibles
+Avión 30 en espera - No hay pistas disponibles
+Avión 24 en espera - No hay pistas disponibles
+Avión 18 en espera - No hay pistas disponibles
+------------------
+Msg enviado: 4
+Operando en: 127.0.0.1:8000
+Tiempo: 4seg.
+len: 2 msg: 4
+
+len: 2 msg: 4
+
+Procesando estado: 4
+Procesando estado: 4
+Prioridad para categoría A
+Prioridad para aviones de categoría A
+Prioridad para categoría A
+Prioridad para aviones de categoría A
+Avión 10 en espera - No hay pistas disponibles
+Avión 1 en espera - No hay pistas disponibles
+Avión 7 en espera - No hay pistas disponibles
+Avión 9 en espera - No hay pistas disponibles
+Avión 5 en espera - No hay pistas disponibles
+Avión 1 ha completado sus operaciones
+Avión 3 en espera - No hay pistas disponibles
+Avión 4 en espera - No hay pistas disponibles
+Avión 3 en espera - No hay pistas disponibles
+Avión 4 en espera - No hay pistas disponibles
+Avión 24 desembarcando en puerta 3
+Avión 11 desembarcando en puerta 4
+Avión 7 ha completado sus operaciones
+Avión 13 desembarcando en puerta 0
+Avión 6 (Categoría A) aterrizando en pista 0
+Avión 2 (Categoría A) aterrizando en pista 1
+Avión 2 en espera - No hay pistas disponibles
+Avión 10 en espera - No hay pistas disponibles
+Avión 5 en espera - No hay pistas disponibles
+Avión 5 desembarcando en puerta 0
+Avión 6 (Categoría A) aterrizando en pista 0
+Avión 9 ha completado sus operaciones
+Avión 6 ha completado sus operaciones
+Avión 8 (Categoría A) aterrizando en pista 2
+Avión 11 en espera - No hay pistas disponibles
+Avión 14 en espera - No hay pistas disponibles
+Avión 17 en espera - No hay pistas disponibles
+Avión 19 en espera - No hay pistas disponibles
+Avión 21 en espera - No hay pistas disponibles
+Avión 22 en espera - No hay pistas disponibles
+Avión 25 en espera - No hay pistas disponibles
+Avión 29 en espera - No hay pistas disponibles
+Avión 28 desembarcando en puerta 1
+Avión 1 (Categoría A) aterrizando en pista 2
+Avión 11 desembarcando en puerta 3
+Avión 9 en espera - No hay pistas disponibles
+Avión 7 (Categoría A) aterrizando en pista 1
+Avión 13 en espera - No hay pistas disponibles
+Avión 8 en espera - No hay pistas disponibles
+Avión 14 en espera - No hay pistas disponibles
+Avión 18 en espera - No hay pistas disponibles
+Avión 19 en espera - No hay pistas disponibles
+Avión 25 en espera - No hay pistas disponibles
+Avión 4 ha completado sus operaciones
+Avión 24 en espera - No hay pistas disponibles
+Avión 27 en espera - No hay pistas disponibles
+Avión 23 en espera - No hay pistas disponibles
+Avión 18 en espera - No hay pistas disponibles
+Avión 12 en espera - No hay pistas disponibles
+Avión 20 en espera - No hay pistas disponibles
+Avión 6 desembarcando en puerta 2
+Avión 16 (Categoría B) aterrizando en pista 0
+Avión 24 en espera - No hay pistas disponibles
+Avión 23 en espera - No hay pistas disponibles
+Avión 21 en espera - No hay pistas disponibles
+Avión 29 en espera - No hay pistas disponibles
+Avión 27 en espera - No hay pistas disponibles
+------------------
+Msg enviado: 1
+Operando en: 127.0.0.1:8000
+Tiempo: 10seg.
+len: 2 msg: 1
+
+len: 2 msg: 1
+
+Procesando estado: 1
+Permitiendo aterrizaje solo categoría A
+Procesando estado: 1
+Procesando solo aviones de categoría A
+Permitiendo aterrizaje solo categoría A
+Procesando solo aviones de categoría A
+Avión 10 en espera - No hay pistas disponibles
+Avión 6 en espera - No hay pistas disponibles
+Avión 26 en espera - No hay pistas disponibles
+Avión 6 desembarcando en puerta 1
+Avión 1 en espera - No hay pistas disponibles
+Avión 16 (Categoría B) aterrizando en pista 0
+Avión 2 en espera - No hay pistas disponibles
+Avión 7 en espera - No hay pistas disponibles
+Avión 28 en espera - No hay pistas disponibles
+Avión 20 en espera - No hay pistas disponibles
+Avión 2 en espera de puerta
+Avión 10 en espera - No hay pistas disponibles
+Avión 13 (Categoría B) aterrizando en pista 1
+Avión 8 en espera de puerta
+Avión 30 (Categoría C) aterrizando en pista 2
+Avión 15 en espera - No hay pistas disponibles
+Avión 28 en espera - No hay pistas disponibles
+Avión 30 en espera - No hay pistas disponibles
+Avión 22 en espera - No hay pistas disponibles
+Avión 11 en espera - No hay pistas disponibles
+Avión 26 en espera - No hay pistas disponibles
+Avión 15 en espera - No hay pistas disponibles
+Avión 12 en espera - No hay pistas disponibles
+Avión 17 en espera - No hay pistas disponibles
+Avión 9 ha completado sus operaciones
+Avión 3 en espera - No hay pistas disponibles
+Avión 9 en espera - No hay pistas disponibles
+Avión 4 en espera - No hay pistas disponibles
+Avión 13 ha completado sus operaciones
+Avión 11 ha completado sus operaciones
+Avión 8 en espera - No hay pistas disponibles
+Avión 1 en espera - No hay pistas disponibles
+Avión 5 en espera - No hay pistas disponibles
+Avión 7 desembarcando en puerta 4
+Avión 5 ha completado sus operaciones
+Avión 11 ha completado sus operaciones
+Avión 9 en espera - No hay pistas disponibles
+Avión 4 (Categoría A) aterrizando en pista 1
+Avión 3 en espera - No hay pistas disponibles
+Avión 24 ha completado sus operaciones
+Avión 2 en espera - No hay pistas disponibles
+Avión 8 en espera - No hay pistas disponibles
+Avión 7 en espera - No hay pistas disponibles
+Avión 5 en espera - No hay pistas disponibles
+Avión 6 en espera - No hay pistas disponibles
+Avión 1 desembarcando en puerta 0
+Avión 16 desembarcando en puerta 3
+Avión 30 desembarcando en puerta 0
+Avión 28 ha completado sus operaciones
+Avión 6 ha completado sus operaciones
+Avión 13 desembarcando en puerta 2
+Avión 16 desembarcando en puerta 3
+Avión 4 desembarcando en puerta 1
+Avión 6 ha completado sus operaciones
+Avión 7 ha completado sus operaciones
+Avión 1 ha completado sus operaciones
+Avión 16 ha completado sus operaciones
+Avión 13 ha completado sus operaciones
+Avión 16 ha completado sus operaciones
+Avión 4 ha completado sus operaciones
+Avión 30 ha completado sus operaciones
+------------------
+Msg enviado: 6
+Operando en: 127.0.0.1:8000
+Tiempo: 10seg.
+len: 2 msg: 6
+
+Procesando estado: 6
+len: 2 msg: 6
+
+Prioridad para categoría C
+Prioridad para aviones de categoría C
+Procesando estado: 6
+Prioridad para categoría C
+Prioridad para aviones de categoría C
+Avión 22 (Categoría C) aterrizando en pista 0
+Avión 27 (Categoría C) aterrizando en pista 0
+Avión 28 (Categoría C) aterrizando en pista 1
+Avión 28 (Categoría C) aterrizando en pista 1
+Avión 23 en espera - No hay pistas disponibles
+Avión 29 (Categoría C) aterrizando en pista 2
+Avión 26 (Categoría C) aterrizando en pista 2
+Avión 22 en espera - No hay pistas disponibles
+Avión 29 en espera - No hay pistas disponibles
+Avión 23 en espera - No hay pistas disponibles
+Avión 21 en espera - No hay pistas disponibles
+Avión 25 en espera - No hay pistas disponibles
+Avión 21 en espera - No hay pistas disponibles
+Avión 30 en espera - No hay pistas disponibles
+Avión 25 en espera - No hay pistas disponibles
+Avión 24 en espera - No hay pistas disponibles
+Avión 3 en espera - No hay pistas disponibles
+Avión 30 (Categoría C) aterrizando en pista 0
+Avión 27 desembarcando en puerta 0
+Avión 28 desembarcando en puerta 1
+Avión 26 (Categoría C) aterrizando en pista 1
+Avión 13 en espera - No hay pistas disponibles
+Avión 18 en espera - No hay pistas disponibles
+Avión 16 en espera - No hay pistas disponibles
+Avión 12 en espera - No hay pistas disponibles
+Avión 9 en espera - No hay pistas disponibles
+Avión 14 en espera - No hay pistas disponibles
+Avión 26 desembarcando en puerta 0
+Avión 24 (Categoría C) aterrizando en pista 2
+Avión 22 desembarcando en puerta 1
+Avión 1 en espera - No hay pistas disponibles
+Avión 16 en espera - No hay pistas disponibles
+Avión 18 en espera - No hay pistas disponibles
+Avión 27 (Categoría C) aterrizando en pista 0
+Avión 4 en espera - No hay pistas disponibles
+Avión 11 en espera - No hay pistas disponibles
+Avión 13 en espera - No hay pistas disponibles
+Avión 14 en espera - No hay pistas disponibles
+Avión 7 en espera - No hay pistas disponibles
+Avión 8 en espera - No hay pistas disponibles
+Avión 28 desembarcando en puerta 2
+Avión 11 en espera - No hay pistas disponibles
+Avión 10 en espera - No hay pistas disponibles
+Avión 19 en espera - No hay pistas disponibles
+Avión 20 en espera - No hay pistas disponibles
+Avión 15 en espera - No hay pistas disponibles
+Avión 2 (Categoría A) aterrizando en pista 1
+Avión 9 en espera - No hay pistas disponibles
+Avión 17 en espera - No hay pistas disponibles
+Avión 8 en espera - No hay pistas disponibles
+Avión 29 desembarcando en puerta 2
+Avión 1 en espera - No hay pistas disponibles
+Avión 2 (Categoría A) aterrizando en pista 2
+Avión 17 en espera - No hay pistas disponibles
+Avión 4 en espera - No hay pistas disponibles
+Avión 5 en espera - No hay pistas disponibles
+Avión 6 en espera - No hay pistas disponibles
+Avión 12 en espera - No hay pistas disponibles
+Avión 6 en espera - No hay pistas disponibles
+Avión 3 en espera - No hay pistas disponibles
+Avión 5 en espera - No hay pistas disponibles
+Avión 19 en espera - No hay pistas disponibles
+Avión 10 en espera - No hay pistas disponibles
+Avión 15 en espera - No hay pistas disponibles
+Avión 7 en espera - No hay pistas disponibles
+Avión 20 en espera - No hay pistas disponibles
+Avión 22 ha completado sus operaciones
+Avión 26 desembarcando en puerta 3
+Avión 27 ha completado sus operaciones
+Avión 28 ha completado sus operaciones
+Avión 30 desembarcando en puerta 0
+Avión 28 ha completado sus operaciones
+Avión 27 desembarcando en puerta 1
+Avión 24 desembarcando en puerta 2
+Avión 2 desembarcando en puerta 3
+Avión 26 ha completado sus operaciones
+Avión 2 desembarcando en puerta 1
+Avión 26 ha completado sus operaciones
+Avión 29 ha completado sus operaciones
+Avión 2 ha completado sus operaciones
+Avión 27 ha completado sus operaciones
+------------------
+Msg enviado: 8
+Operando en: 127.0.0.1:8000
+Tiempo: 2seg.
+len: 2 msg: 8
+
+Procesando estado: 8
+Manteniendo estado anterior
+len: 2 msg: 8
+
+Procesando estado: 8
+Manteniendo estado anterior
+Avión 30 ha completado sus operaciones
+Avión 24 ha completado sus operaciones
+Avión 2 ha completado sus operaciones
+------------------
+Msg enviado: 5
+Operando en: 127.0.0.1:8000
+Tiempo: 9seg.
+len: 2 msg: 5
+
+len: 2 msg: 5
+
+Procesando estado: 5
+Procesando estado: 5
+Prioridad para categoría B
+Prioridad para categoría B
+Prioridad para aviones de categoría B
+Prioridad para aviones de categoría B
+Avión 20 (Categoría B) aterrizando en pista 0
+Avión 18 (Categoría B) aterrizando en pista 0
+Avión 16 (Categoría B) aterrizando en pista 1
+Avión 18 (Categoría B) aterrizando en pista 2
+Avión 19 en espera - No hay pistas disponibles
+Avión 19 (Categoría B) aterrizando en pista 1
+Avión 13 (Categoría B) aterrizando en pista 2
+Avión 17 en espera - No hay pistas disponibles
+Avión 14 en espera - No hay pistas disponibles
+Avión 17 en espera - No hay pistas disponibles
+Avión 18 desembarcando en puerta 0
+Avión 16 en espera - No hay pistas disponibles
+Avión 13 (Categoría B) aterrizando en pista 2
+Avión 8 en espera - No hay pistas disponibles
+Avión 15 en espera - No hay pistas disponibles
+Avión 5 en espera - No hay pistas disponibles
+Avión 11 en espera - No hay pistas disponibles
+Avión 20 en espera - No hay pistas disponibles
+Avión 12 en espera - No hay pistas disponibles
+Avión 11 en espera - No hay pistas disponibles
+Avión 10 en espera - No hay pistas disponibles
+Avión 12 en espera - No hay pistas disponibles
+Avión 14 en espera - No hay pistas disponibles
+Avión 15 en espera - No hay pistas disponibles
+Avión 4 en espera - No hay pistas disponibles
+Avión 23 en espera - No hay pistas disponibles
+Avión 24 en espera - No hay pistas disponibles
+Avión 25 en espera - No hay pistas disponibles
+Avión 21 en espera - No hay pistas disponibles
+Avión 30 en espera - No hay pistas disponibles
+Avión 29 en espera - No hay pistas disponibles
+Avión 30 en espera - No hay pistas disponibles
+Avión 1 en espera - No hay pistas disponibles
+Avión 2 en espera - No hay pistas disponibles
+Avión 4 en espera - No hay pistas disponibles
+Avión 7 en espera - No hay pistas disponibles
+Avión 26 en espera - No hay pistas disponibles
+Avión 21 en espera - No hay pistas disponibles
+Avión 27 en espera - No hay pistas disponibles
+Avión 22 en espera - No hay pistas disponibles
+Avión 9 en espera - No hay pistas disponibles
+Avión 9 en espera - No hay pistas disponibles
+Avión 28 en espera - No hay pistas disponibles
+Avión 5 en espera - No hay pistas disponibles
+Avión 19 desembarcando en puerta 0
+Avión 24 en espera - No hay pistas disponibles
+Avión 18 desembarcando en puerta 1
+Avión 20 desembarcando en puerta 1
+Avión 3 (Categoría A) aterrizando en pista 1
+Avión 1 (Categoría A) aterrizando en pista 0
+Avión 16 desembarcando en puerta 2
+Avión 10 en espera - No hay pistas disponibles
+Avión 2 en espera - No hay pistas disponibles
+Avión 26 en espera - No hay pistas disponibles
+Avión 22 en espera - No hay pistas disponibles
+Avión 27 en espera - No hay pistas disponibles
+Avión 23 (Categoría C) aterrizando en pista 0
+Avión 29 en espera - No hay pistas disponibles
+Avión 6 en espera - No hay pistas disponibles
+Avión 7 en espera - No hay pistas disponibles
+Avión 8 en espera - No hay pistas disponibles
+Avión 28 (Categoría C) aterrizando en pista 1
+Avión 25 en espera - No hay pistas disponibles
+Avión 6 en espera - No hay pistas disponibles
+Avión 3 en espera - No hay pistas disponibles
+Avión 13 desembarcando en puerta 2
+Avión 13 desembarcando en puerta 3
+Avión 18 ha completado sus operaciones
+Avión 1 desembarcando en puerta 3
+Avión 3 desembarcando en puerta 4
+Avión 18 ha completado sus operaciones
+Avión 28 desembarcando en puerta 0
+Avión 23 desembarcando en puerta 4
+Avión 16 ha completado sus operaciones
+Avión 19 ha completado sus operaciones
+------------------
+Msg enviado: 9
+Operando en: 127.0.0.1:8000
+Tiempo: 10seg.
+len: 2 msg: 9
+
+Procesando estado: 9
+Aeropuerto Cerrado Temporalmente
+len: 2 msg: 9
+
+Procesando estado: 9
+Aeropuerto Cerrado Temporalmente
+Avión 13 ha completado sus operaciones
+Avión 20 ha completado sus operaciones
+Avión 3 ha completado sus operaciones
+Avión 13 ha completado sus operaciones
+Avión 23 ha completado sus operaciones
+Avión 1 ha completado sus operaciones
+Avión 28 ha completado sus operaciones
+------------------
+Msg enviado: 9
+Operando en: 127.0.0.1:8000
+Tiempo: 7seg.
+len: 2 msg: 9
+
+Procesando estado: 9
+Aeropuerto Cerrado Temporalmente
+len: 2 msg: 9
+
+Procesando estado: 9
+Aeropuerto Cerrado Temporalmente
+------------------
+Msg enviado: 5
+Operando en: 127.0.0.1:8000
+Tiempo: 10seg.
+len: 2 msg: 5
+
+Procesando estado: 5
+Prioridad para categoría B
+Prioridad para aviones de categoría B
+len: 2 msg: 5
+
+Procesando estado: 5
+Prioridad para categoría B
+Prioridad para aviones de categoría B
+Avión 12 (Categoría B) aterrizando en pista 0
+Avión 19 (Categoría B) aterrizando en pista 1
+Avión 16 (Categoría B) aterrizando en pista 2
+Avión 12 (Categoría B) aterrizando en pista 0
+Avión 16 (Categoría B) aterrizando en pista 1
+Avión 15 (Categoría B) aterrizando en pista 2
+Avión 15 en espera - No hay pistas disponibles
+Avión 19 en espera - No hay pistas disponibles
+Avión 14 en espera - No hay pistas disponibles
+Avión 11 en espera - No hay pistas disponibles
+Avión 13 en espera - No hay pistas disponibles
+Avión 18 en espera - No hay pistas disponibles
+Avión 17 en espera - No hay pistas disponibles
+Avión 20 en espera - No hay pistas disponibles
+Avión 13 en espera - No hay pistas disponibles
+Avión 2 en espera - No hay pistas disponibles
+Avión 4 en espera - No hay pistas disponibles
+Avión 1 en espera - No hay pistas disponibles
+Avión 9 en espera - No hay pistas disponibles
+Avión 30 en espera - No hay pistas disponibles
+Avión 22 en espera - No hay pistas disponibles
+Avión 23 en espera - No hay pistas disponibles
+Avión 14 en espera - No hay pistas disponibles
+Avión 28 en espera - No hay pistas disponibles
+Avión 20 en espera - No hay pistas disponibles
+Avión 11 en espera - No hay pistas disponibles
+Avión 17 en espera - No hay pistas disponibles
+Avión 18 en espera - No hay pistas disponibles
+Avión 10 en espera - No hay pistas disponibles
+Avión 24 en espera - No hay pistas disponibles
+Avión 25 en espera - No hay pistas disponibles
+Avión 4 en espera - No hay pistas disponibles
+Avión 6 en espera - No hay pistas disponibles
+Avión 19 desembarcando en puerta 0
+Avión 6 en espera - No hay pistas disponibles
+Avión 25 en espera - No hay pistas disponibles
+Avión 5 en espera - No hay pistas disponibles
+Avión 21 en espera - No hay pistas disponibles
+Avión 10 en espera - No hay pistas disponibles
+Avión 24 en espera - No hay pistas disponibles
+Avión 3 en espera - No hay pistas disponibles
+Avión 15 desembarcando en puerta 0
+Avión 8 (Categoría A) aterrizando en pista 1
+Avión 7 en espera - No hay pistas disponibles
+Avión 1 en espera - No hay pistas disponibles
+Avión 5 en espera - No hay pistas disponibles
+Avión 9 en espera - No hay pistas disponibles
+Avión 21 en espera - No hay pistas disponibles
+Avión 22 en espera - No hay pistas disponibles
+Avión 23 en espera - No hay pistas disponibles
+Avión 27 en espera - No hay pistas disponibles
+Avión 29 en espera - No hay pistas disponibles
+Avión 12 desembarcando en puerta 1
+Avión 16 desembarcando en puerta 1
+Avión 12 desembarcando en puerta 2
+Avión 16 desembarcando en puerta 2
+Avión 29 (Categoría C) aterrizando en pista 0
+Avión 8 (Categoría A) aterrizando en pista 1
+Avión 26 (Categoría C) aterrizando en pista 2
+Avión 27 en espera - No hay pistas disponibles
+Avión 7 en espera - No hay pistas disponibles
+Avión 28 (Categoría C) aterrizando en pista 0
+Avión 30 (Categoría C) aterrizando en pista 2
+Avión 26 en espera - No hay pistas disponibles
+Avión 2 en espera - No hay pistas disponibles
+Avión 3 en espera - No hay pistas disponibles
+Avión 8 desembarcando en puerta 3
+Avión 26 desembarcando en puerta 3
+Avión 30 desembarcando en puerta 4
+Avión 15 ha completado sus operaciones
+Avión 29 desembarcando en puerta 0
+Avión 8 desembarcando en puerta 4
+Avión 12 ha completado sus operaciones
+Avión 28 en espera de puerta
+Avión 12 ha completado sus operaciones
+Avión 19 ha completado sus operaciones
+Avión 16 ha completado sus operaciones
+Avión 16 ha completado sus operaciones
+Avión 8 ha completado sus operaciones
+------------------
+Msg enviado: 6
+Operando en: 127.0.0.1:8000
+Tiempo: 8seg.
+len: 2 msg: 6
+
+len: 2 msg: 6
+
+Procesando estado: 6
+Procesando estado: 6
+Prioridad para categoría C
+Prioridad para categoría C
+Prioridad para aviones de categoría C
+Prioridad para aviones de categoría C
+Avión 26 (Categoría C) aterrizando en pista 0
+Avión 26 (Categoría C) aterrizando en pista 0
+Avión 28 (Categoría C) aterrizando en pista 1
+Avión 21 (Categoría C) aterrizando en pista 1
+Avión 24 (Categoría C) aterrizando en pista 2
+Avión 24 (Categoría C) aterrizando en pista 2
+Avión 26 ha completado sus operaciones
+Avión 29 ha completado sus operaciones
+Avión 23 en espera - No hay pistas disponibles
+Avión 25 en espera - No hay pistas disponibles
+Avión 29 en espera - No hay pistas disponibles
+Avión 30 en espera - No hay pistas disponibles
+Avión 27 en espera - No hay pistas disponibles
+Avión 29 en espera - No hay pistas disponibles
+Avión 30 en espera - No hay pistas disponibles
+Avión 27 en espera - No hay pistas disponibles
+Avión 28 en espera - No hay pistas disponibles
+Avión 22 en espera - No hay pistas disponibles
+Avión 8 ha completado sus operaciones
+Avión 30 ha completado sus operaciones
+Avión 28 desembarcando en puerta 0
+Avión 20 (Categoría B) aterrizando en pista 1
+Avión 26 desembarcando en puerta 1
+Avión 24 desembarcando en puerta 2
+Avión 14 en espera - No hay pistas disponibles
+Avión 8 (Categoría A) aterrizando en pista 0
+Avión 16 en espera - No hay pistas disponibles
+Avión 9 (Categoría A) aterrizando en pista 2
+Avión 10 en espera - No hay pistas disponibles
+Avión 18 en espera - No hay pistas disponibles
+Avión 22 en espera - No hay pistas disponibles
+Avión 21 en espera - No hay pistas disponibles
+Avión 15 en espera - No hay pistas disponibles
+Avión 19 en espera - No hay pistas disponibles
+Avión 23 en espera - No hay pistas disponibles
+Avión 11 en espera - No hay pistas disponibles
+Avión 10 en espera - No hay pistas disponibles
+Avión 18 en espera - No hay pistas disponibles
+Avión 13 en espera - No hay pistas disponibles
+Avión 19 en espera - No hay pistas disponibles
+Avión 25 en espera - No hay pistas disponibles
+Avión 3 en espera - No hay pistas disponibles
+Avión 15 en espera - No hay pistas disponibles
+Avión 6 en espera - No hay pistas disponibles
+Avión 17 en espera - No hay pistas disponibles
+Avión 1 en espera - No hay pistas disponibles
+Avión 3 en espera - No hay pistas disponibles
+Avión 12 en espera - No hay pistas disponibles
+Avión 4 en espera - No hay pistas disponibles
+Avión 5 en espera - No hay pistas disponibles
+Avión 1 en espera - No hay pistas disponibles
+Avión 8 en espera - No hay pistas disponibles
+Avión 12 en espera - No hay pistas disponibles
+Avión 7 en espera - No hay pistas disponibles
+Avión 13 en espera - No hay pistas disponibles
+Avión 2 en espera - No hay pistas disponibles
+Avión 4 en espera - No hay pistas disponibles
+Avión 26 desembarcando en puerta 0
+Avión 6 en espera - No hay pistas disponibles
+Avión 11 en espera - No hay pistas disponibles
+Avión 7 en espera - No hay pistas disponibles
+Avión 5 en espera - No hay pistas disponibles
+Avión 2 (Categoría A) aterrizando en pista 0
+Avión 24 desembarcando en puerta 1
+Avión 21 desembarcando en puerta 2
+Avión 20 (Categoría B) aterrizando en pista 2
+Avión 9 (Categoría A) aterrizando en pista 1
+Avión 17 en espera - No hay pistas disponibles
+Avión 14 en espera - No hay pistas disponibles
+Avión 16 en espera - No hay pistas disponibles
+Avión 9 desembarcando en puerta 3
+Avión 28 ha completado sus operaciones
+Avión 26 ha completado sus operaciones
+Avión 20 desembarcando en puerta 0
+Avión 8 desembarcando en puerta 1
+Avión 9 desembarcando en puerta 3
+Avión 20 desembarcando en puerta 4
+Avión 26 ha completado sus operaciones
+Avión 24 ha completado sus operaciones
+Avión 2 desembarcando en puerta 0
+Avión 24 ha completado sus operaciones
+------------------
+Msg enviado: 0
+len: 2 msg: 0
+
+Procesando estado: 0
+Aeropuerto Inactivo - No hay aterrizajes
+len: 2 msg: 0
+
+Procesando estado: 0
+Aeropuerto Inactivo - No hay aterrizajes
+Avión 21 ha completado sus operaciones
+Terminando operación en: 127.0.0.1:8000
+len: 35 msg: 127.0.0.1:43866 se ha desconectado
+
+Mensaje del sistema: 127.0.0.1:43866 se ha desconectado
+
+len: 35 msg: 127.0.0.1:43866 se ha desconectado
+
+Mensaje del sistema: 127.0.0.1:43866 se ha desconectado
+
+Avión 9 ha completado sus operaciones
+Avión 8 ha completado sus operaciones
+Avión 20 ha completado sus operaciones
+Avión 9 ha completado sus operaciones
+Avión 20 ha completado sus operaciones
+Avión 2 ha completado sus operaciones
+    integration_test.go:134: Conexión verificada correctamente
+len: 67 msg: 127.0.0.1:50860 Se ha conectado
+127.0.0.1:50860 se ha desconectado
+
+Mensaje del sistema: 127.0.0.1:50860 Se ha conectado
+127.0.0.1:50860 se ha desconectado
+
+len: 67 msg: 127.0.0.1:50860 Se ha conectado
+127.0.0.1:50860 se ha desconectado
+
+Mensaje del sistema: 127.0.0.1:50860 Se ha conectado
+127.0.0.1:50860 se ha desconectado
+
+=== RUN   TestIntegration/5AB_20C
+len: 41 msg: Aeropuerto localizado en 127.0.0.1:43782
+
+Mensaje del sistema: Aeropuerto localizado en 127.0.0.1:43782
+
+len: 32 msg: 127.0.0.1:43782 Se ha conectado
+
+Mensaje del sistema: 127.0.0.1:43782 Se ha conectado
+
+len: 32 msg: 127.0.0.1:43782 Se ha conectado
+
+Mensaje del sistema: 127.0.0.1:43782 Se ha conectado
+
+    integration_test.go:120: Esperando 1m30s para procesar 30 aviones
+len: 32 msg: 127.0.0.1:43788 Se ha conectado
+
+len: 32 msg: 127.0.0.1:43788 Se ha conectado
+
+Mensaje del sistema: 127.0.0.1:43788 Se ha conectado
+
+Mensaje del sistema: 127.0.0.1:43788 Se ha conectado
+
+len: 32 msg: 127.0.0.1:43788 Se ha conectado
+
+Mensaje del sistema: 127.0.0.1:43788 Se ha conectado
+
+------------------
+Iniciando operación en: 127.0.0.1:8000
+Msg enviado: 0
+len: 2 msg: 0
+
+Procesando estado: 0
+Aeropuerto Inactivo - No hay aterrizajes
+len: 2 msg: 0
+
+len: 2 msg: 0
+
+Procesando estado: 0
+Procesando estado: 0
+Aeropuerto Inactivo - No hay aterrizajes
+Aeropuerto Inactivo - No hay aterrizajes
+------------------
+Msg enviado: 7
+Operando en: 127.0.0.1:8000
+Tiempo: 6seg.
+len: 2 msg: 7
+
+len: 2 msg: 7
+
+Procesando estado: 7
+len: 2 msg: 7
+
+Procesando estado: 7
+Manteniendo estado anterior
+Manteniendo estado anterior
+Procesando estado: 7
+Manteniendo estado anterior
+------------------
+Msg enviado: 9
+Operando en: 127.0.0.1:8000
+Tiempo: 8seg.
+len: 2 msg: 9
+
+Procesando estado: 9
+Aeropuerto Cerrado Temporalmente
+len: 2 msg: 9
+
+Procesando estado: 9
+Aeropuerto Cerrado Temporalmente
+len: 2 msg: 9
+
+Procesando estado: 9
+Aeropuerto Cerrado Temporalmente
+------------------
+Msg enviado: 9
+Operando en: 127.0.0.1:8000
+Tiempo: 8seg.
+len: 2 msg: 9
+
+Procesando estado: 9
+Aeropuerto Cerrado Temporalmente
+len: 2 msg: 9
+
+Procesando estado: 9
+Aeropuerto Cerrado Temporalmente
+len: 2 msg: 9
+
+Procesando estado: 9
+Aeropuerto Cerrado Temporalmente
+------------------
+Msg enviado: 9
+Operando en: 127.0.0.1:8000
+Tiempo: 7seg.
+len: 2 msg: 9
+
+Procesando estado: 9
+Aeropuerto Cerrado Temporalmente
+len: 2 msg: 9
+
+Procesando estado: 9
+Aeropuerto Cerrado Temporalmente
+len: 2 msg: 9
+
+Procesando estado: 9
+Aeropuerto Cerrado Temporalmente
+------------------
+Msg enviado: 6
+Operando en: 127.0.0.1:8000
+Tiempo: 2seg.
+len: 2 msg: 6
+
+Procesando estado: 6
+len: 2 msg: 6
+
+Prioridad para categoría C
+Prioridad para aviones de categoría C
+Procesando estado: 6
+Prioridad para categoría C
+Prioridad para aviones de categoría C
+Avión 28 (Categoría C) aterrizando en pista 0
+len: 2 msg: 6
+
+Avión 29 (Categoría C) aterrizando en pista 2
+Avión 25 (Categoría C) aterrizando en pista 1
+Procesando estado: 6
+Avión 22 en espera - No hay pistas disponibles
+Prioridad para categoría C
+Prioridad para aviones de categoría C
+Avión 27 (Categoría C) aterrizando en pista 0
+Avión 29 (Categoría C) aterrizando en pista 2
+Avión 24 (Categoría C) aterrizando en pista 1
+Avión 23 en espera - No hay pistas disponibles
+Avión 21 en espera - No hay pistas disponibles
+Avión 24 (Categoría C) aterrizando en pista 0
+Avión 21 en espera - No hay pistas disponibles
+Avión 22 en espera - No hay pistas disponibles
+Avión 23 (Categoría C) aterrizando en pista 1
+Avión 23 en espera - No hay pistas disponibles
+Avión 26 en espera - No hay pistas disponibles
+Avión 30 en espera - No hay pistas disponibles
+Avión 28 en espera - No hay pistas disponibles
+Avión 24 desembarcando en puerta 0
+Avión 27 desembarcando en puerta 1
+Avión 25 (Categoría C) aterrizando en pista 0
+Avión 30 (Categoría C) aterrizando en pista 1
+Avión 26 en espera - No hay pistas disponibles
+Avión 10 en espera - No hay pistas disponibles
+Avión 11 en espera - No hay pistas disponibles
+------------------
+Avión 19 en espera - No hay pistas disponibles
+Msg enviado: 5
+Operando en: 127.0.0.1:8000
+Tiempo: 4seg.
+Avión 25 (Categoría C) aterrizando en pista 2
+Avión 27 en espera - No hay pistas disponibles
+Avión 21 en espera - No hay pistas disponibles
+Avión 24 en espera - No hay pistas disponibles
+Avión 28 en espera - No hay pistas disponibles
+Avión 29 en espera - No hay pistas disponibles
+Avión 22 en espera - No hay pistas disponibles
+Avión 26 en espera - No hay pistas disponibles
+Avión 30 en espera - No hay pistas disponibles
+len: 2 msg: 5
+
+len: 2 msg: 5
+
+Procesando estado: 5
+Avión 8 en espera - No hay pistas disponibles
+Prioridad para categoría B
+Procesando estado: 5
+Avión 17 en espera - No hay pistas disponibles
+Prioridad para categoría B
+Prioridad para aviones de categoría B
+Avión 4 en espera - No hay pistas disponibles
+Avión 27 en espera - No hay pistas disponibles
+Prioridad para aviones de categoría B
+Avión 13 en espera - No hay pistas disponibles
+Avión 12 en espera - No hay pistas disponibles
+Avión 3 en espera - No hay pistas disponibles
+Avión 18 en espera - No hay pistas disponibles
+Avión 11 en espera - No hay pistas disponibles
+Avión 5 en espera - No hay pistas disponibles
+Avión 8 en espera - No hay pistas disponibles
+Avión 18 en espera - No hay pistas disponibles
+len: 2 msg: 5
+
+Procesando estado: 5
+Prioridad para categoría B
+Prioridad para aviones de categoría B
+Avión 12 en espera - No hay pistas disponibles
+Avión 12 en espera - No hay pistas disponibles
+Avión 14 en espera - No hay pistas disponibles
+Avión 14 en espera - No hay pistas disponibles
+Avión 16 en espera - No hay pistas disponibles
+Avión 13 en espera - No hay pistas disponibles
+Avión 17 en espera - No hay pistas disponibles
+Avión 28 desembarcando en puerta 0
+Avión 29 desembarcando en puerta 2
+Avión 1 (Categoría A) aterrizando en pista 2
+Avión 20 en espera - No hay pistas disponibles
+Avión 17 en espera - No hay pistas disponibles
+Avión 6 en espera - No hay pistas disponibles
+Avión 12 en espera - No hay pistas disponibles
+Avión 24 desembarcando en puerta 0
+Avión 4 en espera - No hay pistas disponibles
+Avión 16 (Categoría B) aterrizando en pista 0
+Avión 16 en espera - No hay pistas disponibles
+Avión 12 en espera - No hay pistas disponibles
+Avión 13 en espera - No hay pistas disponibles
+Avión 6 en espera - No hay pistas disponibles
+Avión 1 en espera - No hay pistas disponibles
+Avión 17 en espera - No hay pistas disponibles
+Avión 20 en espera - No hay pistas disponibles
+Avión 7 (Categoría A) aterrizando en pista 0
+Avión 10 en espera - No hay pistas disponibles
+Avión 14 en espera - No hay pistas disponibles
+Avión 11 en espera - No hay pistas disponibles
+Avión 6 en espera - No hay pistas disponibles
+Avión 18 en espera - No hay pistas disponibles
+Avión 5 en espera - No hay pistas disponibles
+Avión 14 en espera - No hay pistas disponibles
+Avión 19 en espera - No hay pistas disponibles
+Avión 18 en espera - No hay pistas disponibles
+Avión 13 en espera - No hay pistas disponibles
+Avión 15 en espera - No hay pistas disponibles
+Avión 25 desembarcando en puerta 1
+Avión 23 desembarcando en puerta 1
+Avión 29 desembarcando en puerta 2
+Avión 20 en espera - No hay pistas disponibles
+Avión 17 en espera - No hay pistas disponibles
+Avión 11 en espera - No hay pistas disponibles
+Avión 18 en espera - No hay pistas disponibles
+Avión 3 en espera - No hay pistas disponibles
+Avión 9 en espera - No hay pistas disponibles
+Avión 14 en espera - No hay pistas disponibles
+Avión 15 en espera - No hay pistas disponibles
+Avión 16 en espera - No hay pistas disponibles
+Avión 8 en espera - No hay pistas disponibles
+Avión 1 en espera - No hay pistas disponibles
+Avión 6 en espera - No hay pistas disponibles
+Avión 9 en espera - No hay pistas disponibles
+Avión 21 en espera - No hay pistas disponibles
+Avión 19 (Categoría B) aterrizando en pista 1
+Avión 22 en espera - No hay pistas disponibles
+Avión 20 en espera - No hay pistas disponibles
+Avión 19 en espera - No hay pistas disponibles
+Avión 15 en espera - No hay pistas disponibles
+Avión 12 en espera - No hay pistas disponibles
+Avión 30 en espera - No hay pistas disponibles
+Avión 2 en espera - No hay pistas disponibles
+Avión 28 en espera - No hay pistas disponibles
+Avión 17 en espera - No hay pistas disponibles
+Avión 9 en espera - No hay pistas disponibles
+Avión 3 en espera - No hay pistas disponibles
+Avión 16 en espera - No hay pistas disponibles
+Avión 16 en espera - No hay pistas disponibles
+Avión 13 en espera - No hay pistas disponibles
+Avión 2 en espera - No hay pistas disponibles
+Avión 15 en espera - No hay pistas disponibles
+Avión 7 en espera - No hay pistas disponibles
+Avión 20 en espera - No hay pistas disponibles
+Avión 5 en espera - No hay pistas disponibles
+Avión 1 en espera - No hay pistas disponibles
+Avión 3 en espera - No hay pistas disponibles
+Avión 6 en espera - No hay pistas disponibles
+Avión 23 en espera - No hay pistas disponibles
+Avión 10 en espera - No hay pistas disponibles
+Avión 21 en espera - No hay pistas disponibles
+Avión 26 en espera - No hay pistas disponibles
+Avión 27 en espera - No hay pistas disponibles
+Avión 29 en espera - No hay pistas disponibles
+Avión 19 (Categoría B) aterrizando en pista 1
+Avión 2 (Categoría A) aterrizando en pista 2
+Avión 4 en espera - No hay pistas disponibles
+Avión 19 en espera - No hay pistas disponibles
+Avión 7 en espera - No hay pistas disponibles
+Avión 15 en espera - No hay pistas disponibles
+Avión 18 en espera - No hay pistas disponibles
+Avión 15 en espera - No hay pistas disponibles
+Avión 11 en espera - No hay pistas disponibles
+Avión 13 en espera - No hay pistas disponibles
+Avión 11 en espera - No hay pistas disponibles
+Avión 14 en espera - No hay pistas disponibles
+Avión 20 en espera - No hay pistas disponibles
+Avión 9 en espera - No hay pistas disponibles
+Avión 5 en espera - No hay pistas disponibles
+Avión 10 en espera - No hay pistas disponibles
+Avión 7 en espera - No hay pistas disponibles
+Avión 8 en espera - No hay pistas disponibles
+Avión 22 en espera - No hay pistas disponibles
+Avión 3 en espera - No hay pistas disponibles
+Avión 23 en espera - No hay pistas disponibles
+Avión 24 en espera - No hay pistas disponibles
+Avión 27 en espera - No hay pistas disponibles
+Avión 26 en espera - No hay pistas disponibles
+Avión 25 desembarcando en puerta 3
+Avión 1 desembarcando en puerta 4
+Avión 24 ha completado sus operaciones
+Avión 25 desembarcando en puerta 2
+Avión 6 en espera - No hay pistas disponibles
+Avión 29 (Categoría C) aterrizando en pista 0
+Avión 23 (Categoría C) aterrizando en pista 2
+Avión 8 en espera - No hay pistas disponibles
+Avión 16 desembarcando en puerta 3
+Avión 2 en espera - No hay pistas disponibles
+Avión 5 en espera - No hay pistas disponibles
+Avión 24 en espera - No hay pistas disponibles
+Avión 21 (Categoría C) aterrizando en pista 0
+Avión 1 en espera - No hay pistas disponibles
+Avión 25 en espera - No hay pistas disponibles
+Avión 2 (Categoría A) aterrizando en pista 2
+Avión 7 desembarcando en puerta 3
+Avión 8 (Categoría A) aterrizando en pista 0
+Avión 28 en espera - No hay pistas disponibles
+Avión 24 en espera - No hay pistas disponibles
+Avión 27 ha completado sus operaciones
+Avión 30 desembarcando en puerta 0
+Avión 3 (Categoría A) aterrizando en pista 1
+Avión 4 en espera - No hay pistas disponibles
+Avión 7 en espera - No hay pistas disponibles
+Avión 25 en espera - No hay pistas disponibles
+Avión 26 en espera - No hay pistas disponibles
+Avión 10 en espera - No hay pistas disponibles
+Avión 27 en espera - No hay pistas disponibles
+Avión 29 en espera - No hay pistas disponibles
+Avión 7 en espera - No hay pistas disponibles
+Avión 30 en espera - No hay pistas disponibles
+Avión 28 en espera - No hay pistas disponibles
+Avión 9 en espera - No hay pistas disponibles
+Avión 1 en espera - No hay pistas disponibles
+Avión 10 en espera - No hay pistas disponibles
+Avión 22 en espera - No hay pistas disponibles
+Avión 4 en espera - No hay pistas disponibles
+Avión 2 en espera - No hay pistas disponibles
+Avión 5 en espera - No hay pistas disponibles
+Avión 4 en espera - No hay pistas disponibles
+Avión 25 en espera - No hay pistas disponibles
+Avión 30 en espera - No hay pistas disponibles
+Avión 19 desembarcando en puerta 4
+Avión 9 (Categoría A) aterrizando en pista 1
+Avión 2 en espera de puerta
+------------------
+Msg enviado: 9
+Operando en: 127.0.0.1:8000
+Tiempo: 8seg.
+len: 2 msg: 9
+
+Procesando estado: 9
+Aeropuerto Cerrado Temporalmente
+len: 2 msg: 9
+
+len: 2 msg: 9
+
+Procesando estado: 9
+Aeropuerto Cerrado Temporalmente
+Procesando estado: 9
+Aeropuerto Cerrado Temporalmente
+Avión 23 desembarcando en puerta 1
+Avión 2 desembarcando en puerta 4
+Avión 29 ha completado sus operaciones
+Avión 23 ha completado sus operaciones
+Avión 29 ha completado sus operaciones
+Avión 28 ha completado sus operaciones
+Avión 1 ha completado sus operaciones
+Avión 25 ha completado sus operaciones
+Avión 19 desembarcando en puerta 1
+Avión 21 desembarcando en puerta 0
+Avión 16 ha completado sus operaciones
+Avión 9 desembarcando en puerta 2
+Avión 25 ha completado sus operaciones
+Avión 24 ha completado sus operaciones
+Avión 3 desembarcando en puerta 2
+Avión 29 desembarcando en puerta 3
+Avión 8 desembarcando en puerta 0
+Avión 19 ha completado sus operaciones
+Avión 25 ha completado sus operaciones
+Avión 2 ha completado sus operaciones
+Avión 7 ha completado sus operaciones
+Avión 30 ha completado sus operaciones
+Avión 29 ha completado sus operaciones
+Avión 9 ha completado sus operaciones
+Avión 23 ha completado sus operaciones
+Avión 3 ha completado sus operaciones
+Avión 21 ha completado sus operaciones
+Avión 19 ha completado sus operaciones
+Avión 8 ha completado sus operaciones
+------------------
+Msg enviado: 6
+Operando en: 127.0.0.1:8000
+Tiempo: 10seg.
+len: 2 msg: 6
+
+len: 2 msg: 6
+
+Procesando estado: 6
+Prioridad para categoría C
+Prioridad para aviones de categoría C
+Procesando estado: 6
+Prioridad para categoría C
+Prioridad para aviones de categoría C
+len: 2 msg: 6
+
+Procesando estado: 6
+Prioridad para categoría C
+Prioridad para aviones de categoría C
+Avión 30 (Categoría C) aterrizando en pista 0
+Avión 28 (Categoría C) aterrizando en pista 2
+Avión 27 (Categoría C) aterrizando en pista 0
+Avión 21 (Categoría C) aterrizando en pista 1
+Avión 28 (Categoría C) aterrizando en pista 1
+Avión 22 en espera - No hay pistas disponibles
+Avión 26 (Categoría C) aterrizando en pista 0
+Avión 29 en espera - No hay pistas disponibles
+Avión 24 (Categoría C) aterrizando en pista 1
+Avión 24 (Categoría C) aterrizando en pista 2
+Avión 23 en espera - No hay pistas disponibles
+Avión 22 (Categoría C) aterrizando en pista 2
+Avión 25 en espera - No hay pistas disponibles
+Avión 21 en espera - No hay pistas disponibles
+Avión 29 en espera - No hay pistas disponibles
+Avión 22 en espera - No hay pistas disponibles
+Avión 29 en espera - No hay pistas disponibles
+Avión 24 en espera - No hay pistas disponibles
+Avión 26 en espera - No hay pistas disponibles
+Avión 27 en espera - No hay pistas disponibles
+Avión 26 en espera - No hay pistas disponibles
+Avión 21 desembarcando en puerta 0
+Avión 25 (Categoría C) aterrizando en pista 1
+Avión 8 en espera - No hay pistas disponibles
+Avión 30 en espera - No hay pistas disponibles
+Avión 2 en espera - No hay pistas disponibles
+Avión 6 en espera - No hay pistas disponibles
+Avión 11 en espera - No hay pistas disponibles
+Avión 23 en espera - No hay pistas disponibles
+Avión 16 en espera - No hay pistas disponibles
+Avión 2 en espera - No hay pistas disponibles
+Avión 17 en espera - No hay pistas disponibles
+Avión 8 en espera - No hay pistas disponibles
+Avión 11 en espera - No hay pistas disponibles
+Avión 15 en espera - No hay pistas disponibles
+Avión 19 en espera - No hay pistas disponibles
+Avión 10 en espera - No hay pistas disponibles
+Avión 16 en espera - No hay pistas disponibles
+Avión 18 en espera - No hay pistas disponibles
+Avión 23 en espera - No hay pistas disponibles
+Avión 25 en espera - No hay pistas disponibles
+Avión 21 en espera - No hay pistas disponibles
+Avión 28 en espera - No hay pistas disponibles
+Avión 30 en espera - No hay pistas disponibles
+Avión 10 en espera - No hay pistas disponibles
+Avión 12 en espera - No hay pistas disponibles
+Avión 27 en espera - No hay pistas disponibles
+Avión 19 en espera - No hay pistas disponibles
+Avión 15 en espera - No hay pistas disponibles
+Avión 12 en espera - No hay pistas disponibles
+Avión 7 en espera - No hay pistas disponibles
+Avión 1 en espera - No hay pistas disponibles
+Avión 20 en espera - No hay pistas disponibles
+Avión 5 en espera - No hay pistas disponibles
+Avión 3 en espera - No hay pistas disponibles
+Avión 30 desembarcando en puerta 1
+Avión 4 en espera - No hay pistas disponibles
+Avión 26 desembarcando en puerta 0
+Avión 24 desembarcando en puerta 1
+Avión 7 en espera - No hay pistas disponibles
+Avión 19 en espera - No hay pistas disponibles
+Avión 9 en espera - No hay pistas disponibles
+Avión 17 en espera - No hay pistas disponibles
+Avión 5 en espera - No hay pistas disponibles
+Avión 13 en espera - No hay pistas disponibles
+Avión 12 en espera - No hay pistas disponibles
+Avión 4 (Categoría A) aterrizando en pista 0
+Avión 9 en espera - No hay pistas disponibles
+Avión 2 (Categoría A) aterrizando en pista 1
+Avión 7 en espera - No hay pistas disponibles
+Avión 8 en espera - No hay pistas disponibles
+Avión 11 en espera - No hay pistas disponibles
+Avión 14 en espera - No hay pistas disponibles
+Avión 17 en espera - No hay pistas disponibles
+Avión 18 en espera - No hay pistas disponibles
+Avión 28 desembarcando en puerta 0
+Avión 27 desembarcando en puerta 1
+Avión 28 desembarcando en puerta 2
+Avión 22 desembarcando en puerta 2
+Avión 10 (Categoría A) aterrizando en pista 0
+Avión 13 (Categoría B) aterrizando en pista 2
+Avión 14 en espera - No hay pistas disponibles
+Avión 6 en espera - No hay pistas disponibles
+Avión 9 en espera - No hay pistas disponibles
+Avión 18 en espera - No hay pistas disponibles
+Avión 1 (Categoría A) aterrizando en pista 0
+Avión 3 (Categoría A) aterrizando en pista 1
+Avión 14 en espera - No hay pistas disponibles
+Avión 20 en espera - No hay pistas disponibles
+Avión 4 en espera - No hay pistas disponibles
+Avión 3 (Categoría A) aterrizando en pista 2
+Avión 1 en espera - No hay pistas disponibles
+Avión 6 en espera - No hay pistas disponibles
+Avión 5 en espera - No hay pistas disponibles
+Avión 15 en espera - No hay pistas disponibles
+Avión 13 en espera - No hay pistas disponibles
+Avión 16 en espera - No hay pistas disponibles
+Avión 20 en espera - No hay pistas disponibles
+Avión 21 ha completado sus operaciones
+Avión 24 desembarcando en puerta 2
+Avión 25 desembarcando en puerta 0
+Avión 13 desembarcando en puerta 3
+Avión 10 desembarcando en puerta 4
+Avión 1 desembarcando en puerta 3
+Avión 26 ha completado sus operaciones
+Avión 4 desembarcando en puerta 0
+Avión 30 ha completado sus operaciones
+Avión 3 desembarcando en puerta 4
+Avión 3 desembarcando en puerta 3
+Avión 2 desembarcando en puerta 4
+Avión 22 ha completado sus operaciones
+Avión 24 ha completado sus operaciones
+Avión 27 ha completado sus operaciones
+Avión 28 ha completado sus operaciones
+Avión 3 ha completado sus operaciones
+Avión 1 ha completado sus operaciones
+Avión 10 ha completado sus operaciones
+Avión 13 ha completado sus operaciones
+Avión 28 ha completado sus operaciones
+Avión 4 ha completado sus operaciones
+------------------
+Msg enviado: 9
+Operando en: 127.0.0.1:8000
+Tiempo: 6seg.
+len: 2 msg: 9
+
+Procesando estado: 9
+Aeropuerto Cerrado Temporalmente
+len: 2 msg: 9
+
+len: 2 msg: 9
+
+Procesando estado: 9
+Procesando estado: 9
+Aeropuerto Cerrado Temporalmente
+Aeropuerto Cerrado Temporalmente
+Avión 25 ha completado sus operaciones
+Avión 24 ha completado sus operaciones
+Avión 3 ha completado sus operaciones
+Avión 2 ha completado sus operaciones
+------------------
+Msg enviado: 6
+Operando en: 127.0.0.1:8000
+Tiempo: 10seg.
+len: 2 msg: 6
+
+len: 2 msg: 6
+
+Procesando estado: 6
+Procesando estado: 6
+Prioridad para categoría C
+Prioridad para categoría C
+Prioridad para aviones de categoría C
+Prioridad para aviones de categoría C
+Avión 30 (Categoría C) aterrizando en pista 0
+Avión 26 (Categoría C) aterrizando en pista 1
+Avión 28 (Categoría C) aterrizando en pista 2
+Avión 25 en espera - No hay pistas disponibles
+Avión 24 (Categoría C) aterrizando en pista 0
+Avión 24 en espera - No hay pistas disponibles
+len: 2 msg: 6
+
+Avión 21 en espera - No hay pistas disponibles
+Avión 23 (Categoría C) aterrizando en pista 1
+Procesando estado: 6
+Prioridad para categoría C
+Avión 21 (Categoría C) aterrizando en pista 2
+Prioridad para aviones de categoría C
+Avión 28 en espera - No hay pistas disponibles
+Avión 30 en espera - No hay pistas disponibles
+Avión 29 en espera - No hay pistas disponibles
+Avión 25 en espera - No hay pistas disponibles
+Avión 30 (Categoría C) aterrizando en pista 0
+Avión 21 (Categoría C) aterrizando en pista 1
+Avión 26 (Categoría C) aterrizando en pista 2
+Avión 27 en espera - No hay pistas disponibles
+Avión 29 en espera - No hay pistas disponibles
+Avión 27 en espera - No hay pistas disponibles
+Avión 28 en espera - No hay pistas disponibles
+Avión 27 en espera - No hay pistas disponibles
+Avión 25 en espera - No hay pistas disponibles
+Avión 26 en espera - No hay pistas disponibles
+Avión 24 en espera - No hay pistas disponibles
+Avión 22 en espera - No hay pistas disponibles
+Avión 23 en espera - No hay pistas disponibles
+Avión 22 en espera - No hay pistas disponibles
+Avión 23 en espera - No hay pistas disponibles
+Avión 29 en espera - No hay pistas disponibles
+Avión 26 desembarcando en puerta 0
+Avión 26 desembarcando en puerta 0
+Avión 1 en espera - No hay pistas disponibles
+Avión 22 en espera - No hay pistas disponibles
+Avión 4 (Categoría A) aterrizando en pista 1
+Avión 12 (Categoría B) aterrizando en pista 2
+Avión 7 en espera - No hay pistas disponibles
+Avión 7 en espera - No hay pistas disponibles
+Avión 3 en espera - No hay pistas disponibles
+Avión 8 en espera - No hay pistas disponibles
+Avión 19 en espera - No hay pistas disponibles
+Avión 13 en espera - No hay pistas disponibles
+Avión 1 en espera - No hay pistas disponibles
+Avión 14 en espera - No hay pistas disponibles
+Avión 2 en espera - No hay pistas disponibles
+Avión 4 en espera - No hay pistas disponibles
+Avión 5 en espera - No hay pistas disponibles
+Avión 13 en espera - No hay pistas disponibles
+Avión 19 en espera - No hay pistas disponibles
+Avión 21 desembarcando en puerta 1
+Avión 30 desembarcando en puerta 2
+Avión 23 desembarcando en puerta 0
+Avión 24 desembarcando en puerta 1
+Avión 14 en espera - No hay pistas disponibles
+Avión 13 en espera - No hay pistas disponibles
+Avión 16 (Categoría B) aterrizando en pista 0
+Avión 5 en espera - No hay pistas disponibles
+Avión 17 en espera - No hay pistas disponibles
+Avión 10 (Categoría A) aterrizando en pista 1
+Avión 5 en espera - No hay pistas disponibles
+Avión 6 en espera - No hay pistas disponibles
+Avión 6 en espera - No hay pistas disponibles
+Avión 14 (Categoría B) aterrizando en pista 0
+Avión 4 en espera - No hay pistas disponibles
+Avión 9 (Categoría A) aterrizando en pista 1
+Avión 18 en espera - No hay pistas disponibles
+Avión 11 en espera - No hay pistas disponibles
+Avión 7 en espera - No hay pistas disponibles
+Avión 1 en espera - No hay pistas disponibles
+Avión 11 en espera - No hay pistas disponibles
+Avión 18 en espera - No hay pistas disponibles
+Avión 3 en espera - No hay pistas disponibles
+Avión 6 en espera - No hay pistas disponibles
+Avión 17 en espera - No hay pistas disponibles
+Avión 28 desembarcando en puerta 1
+Avión 30 desembarcando en puerta 2
+Avión 3 en espera - No hay pistas disponibles
+Avión 17 en espera - No hay pistas disponibles
+Avión 20 en espera - No hay pistas disponibles
+Avión 2 en espera - No hay pistas disponibles
+Avión 15 en espera - No hay pistas disponibles
+Avión 8 en espera - No hay pistas disponibles
+Avión 9 en espera - No hay pistas disponibles
+Avión 16 en espera - No hay pistas disponibles
+Avión 12 en espera - No hay pistas disponibles
+Avión 21 desembarcando en puerta 2
+Avión 20 (Categoría B) aterrizando en pista 2
+Avión 15 en espera - No hay pistas disponibles
+Avión 10 en espera - No hay pistas disponibles
+Avión 8 en espera - No hay pistas disponibles
+Avión 10 (Categoría A) aterrizando en pista 0
+Avión 2 (Categoría A) aterrizando en pista 2
+Avión 11 en espera - No hay pistas disponibles
+Avión 9 en espera - No hay pistas disponibles
+Avión 19 en espera - No hay pistas disponibles
+Avión 18 en espera - No hay pistas disponibles
+Avión 20 en espera - No hay pistas disponibles
+Avión 16 en espera - No hay pistas disponibles
+Avión 15 en espera - No hay pistas disponibles
+Avión 12 en espera - No hay pistas disponibles
+Avión 4 desembarcando en puerta 3
+Avión 10 desembarcando en puerta 3
+Avión 9 desembarcando en puerta 3
+Avión 26 ha completado sus operaciones
+Avión 12 desembarcando en puerta 0
+Avión 16 desembarcando en puerta 4
+Avión 2 desembarcando en puerta 4
+Avión 21 ha completado sus operaciones
+Avión 26 ha completado sus operaciones
+Avión 14 desembarcando en puerta 4
+Avión 24 ha completado sus operaciones
+Avión 28 ha completado sus operaciones
+Avión 30 ha completado sus operaciones
+Avión 23 ha completado sus operaciones
+Avión 20 desembarcando en puerta 0
+Avión 10 desembarcando en puerta 0
+Avión 10 ha completado sus operaciones
+Avión 21 ha completado sus operaciones
+Avión 4 ha completado sus operaciones
+Avión 30 ha completado sus operaciones
+Avión 16 ha completado sus operaciones
+Avión 2 ha completado sus operaciones
+------------------
+Msg enviado: 0
+len: 2 msg: 0
+
+Procesando estado: 0
+Aeropuerto Inactivo - No hay aterrizajes
+len: 2 msg: 0
+
+Procesando estado: 0
+Aeropuerto Inactivo - No hay aterrizajes
+len: 2 msg: 0
+
+Procesando estado: 0
+Aeropuerto Inactivo - No hay aterrizajes
+Avión 12 ha completado sus operaciones
+Avión 9 ha completado sus operaciones
+Terminando operación en: 127.0.0.1:8000
+len: 35 msg: 127.0.0.1:43788 se ha desconectado
+
+Mensaje del sistema: 127.0.0.1:43788 se ha desconectado
+
+len: 35 msg: 127.0.0.1:43788 se ha desconectado
+
+Mensaje del sistema: 127.0.0.1:43788 se ha desconectado
+
+len: 35 msg: 127.0.0.1:43788 se ha desconectado
+
+Mensaje del sistema: 127.0.0.1:43788 se ha desconectado
+
+Avión 10 ha completado sus operaciones
+Avión 14 ha completado sus operaciones
+Avión 20 ha completado sus operaciones
+    integration_test.go:134: Conexión verificada correctamente
+len: 67 msg: 127.0.0.1:53112 Se ha conectado
+127.0.0.1:53112 se ha desconectado
+
+Mensaje del sistema: 127.0.0.1:53112 Se ha conectado
+127.0.0.1:53112 se ha desconectado
+
+len: 32 msg: 127.0.0.1:53112 Se ha conectado
+
+Mensaje del sistema: 127.0.0.1:53112 Se ha conectado
+
+len: 35 msg: 127.0.0.1:53112 se ha desconectado
+
+Mensaje del sistema: 127.0.0.1:53112 se ha desconectado
+
+len: 67 msg: 127.0.0.1:53112 Se ha conectado
+127.0.0.1:53112 se ha desconectado
+
+Mensaje del sistema: 127.0.0.1:53112 Se ha conectado
+127.0.0.1:53112 se ha desconectado
+
+--- PASS: TestIntegration (301.19s)
+    --- PASS: TestIntegration/10_each (97.10s)
+    --- PASS: TestIntegration/20A_5BC (99.03s)
+    --- PASS: TestIntegration/5AB_20C (99.05s)
+PASS
+ok  	command-line-arguments	337.124s
