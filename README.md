@@ -1,6 +1,6 @@
 # Práctica 4: Sistemas Distribuidos - Modernidad en la República Bananera 🍌
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/aMonteSl/P3_GO.git)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/aMonteSl/P4_GO.git)
 
 
 ## 📋 Tabla de Contenidos
